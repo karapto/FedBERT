@@ -5,6 +5,8 @@ The rapid advancement of pre-trained models (PTMs) has revolutionized natural la
 
 To address this challenge and enable clients with limited computing capabilities to participate in pre-training large models, we introduce a novel learning approach called FedBERT. FedBERT leverages the principles of federated learning and split learning to pre-train BERT in a federated manner. By doing so, FedBERT ensures that raw data information is not shared while achieving excellent performance.
 
+This repository is a proof of concept for the reference [Yua22]. However, the experimental setup and model structure are somewhat different.
+
 ## Installation
 
 1. Clone the project:
@@ -26,4 +28,4 @@ $ jupyter notebook
 ```
 
 ## References
-Tian, Yuanyishu, Yao Wan, Lingjuan Lyu, Dezhong Yao, Hai Jin, and Lichao Sun. "FedBERT: when federated learning meets pre-training." ACM Transactions on Intelligent Systems and Technology (TIST) 13, no. 4 (2022): 1-26.
+[Yua22] Tian, Yuanyishu, Yao Wan, Lingjuan Lyu, Dezhong Yao, Hai Jin, and Lichao Sun. "FedBERT: when federated learning meets pre-training." ACM Transactions on Intelligent Systems and Technology (TIST) 13, no. 4 (2022): 1-26.
