@@ -12,7 +12,7 @@ This repository is a proof of concept for the reference [Yua22]. However, the ex
 1. Clone the project:
 
 ```
-$ git clone https://github.com/karapto/FedBERT.git && cd fraud-detection
+$ git clone https://github.com/karapto/FedBERT.git && cd FedBERT
 ```
 
 2. Pip-install dependencies. For example using a virtualenv:
